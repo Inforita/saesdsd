@@ -1,0 +1,39 @@
+{
+  "name": "Native",
+  "version": "2.0.3",
+  "description": "A boilerplate example bot with command handler and reloadable commands. Updated and Maintained by the Idiot's Guide Community",
+  "main": "node server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": "8.4.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/An-Idiots-Guide/guidebot.git"
+  },
+  "author": "The Idiot's Guide Community",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/An-Idiots-Guide/guidebot/issues"
+  },
+  "homepage": "https://github.com/An-Idiots-Guide/guidebot#readme",
+  "dependencies": {
+    "chalk": "^2.4.2",
+    "cron": "^1.8.2",
+    "discord-anti-spam-tr": "^0.7.4",
+    "discord.js": "^11.6.4",
+    "express": "^4.16.4",
+    "ffmpeg-binaries": "^3.2.2-3",
+    "fs": "^0.0.2",
+    "jimp": "^0.6.4",
+    "moment": "^2.24.0",
+    "moment-duration-format": "^2.2.2",
+    "mongoose": "^5.9.27",
+    "node-cron": "^2.0.3",
+    "parse-ms": "^2.0.0",
+    "quick.db": "^7.1.1"
+  }
+}
